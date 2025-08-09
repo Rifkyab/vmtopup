@@ -1,0 +1,17 @@
+{
+  "name": "vmtopup-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot untuk Top Up Higgs Domino via BOS StoreID API",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.2",
+    "node-fetch": "^2.6.7",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "sqlite3": "^5.1.6",
+    "dotenv": "^16.0.3"
+  }
+}
